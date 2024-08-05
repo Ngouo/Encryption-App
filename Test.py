@@ -56,7 +56,7 @@ def encrypt():
     
   
   elif password == '':
-    messagebox.showerror("ENCRYPTION", 'Insérer un mot de passe')
+    messagebox.showerror("ENCRYPTION", 'Insérer votre mot de passe')
     
   elif password != "1234":
     messagebox.showerror('ENCRYPTION', 'mot de passe incorrect !')  
